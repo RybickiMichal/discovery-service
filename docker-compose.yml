@@ -22,6 +22,6 @@ services:
       KAFKA_ADVERTISED_HOST_NAME: 127.0.0.1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_ADVERTISED_PORT: 9092
-      KAFKA_CREATE_TOPICS: "camera-sensors:12:1,rf-sensors:12:1"
+      KAFKA_CREATE_TOPICS: "camera-sensors:12:1,rf-sensors:12:1,rf-data:12:1"
 
 
